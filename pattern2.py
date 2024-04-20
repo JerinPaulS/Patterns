@@ -1,12 +1,11 @@
-# *
-# **
-# ***
-# ****
+#    ******
+#    ******
+#    ******
+#    ******
 
 def pattern(n):
-
-    for i in range(n + 1):
-        print("*" * i)
+    for row in range(n + 1):
+        print("*" * 6)
 
 def printSeparator():
     print("---------------------------------------------------------------------------------------------------")
@@ -23,4 +22,3 @@ pattern(5)
 printSeparator()
 pattern(10)
 printSeparator()
-    
